@@ -30,7 +30,11 @@ EOF
 . /home/vagrant/.bash_aliases
 
 echo "Copying datasets to /opt/dataset"
-cp -vR data/* /opt/dataset/
+mkdir /opt/dataset
+chmod -R 777 /opt/dataset
+cp -vR /vagrant/data/* /opt/dataset/
 
 echo "Copying code example to /home/vagrant/samples"
-cp -vR code /home/vagrant/samples
+mkdir /home/vagrant/samples/
+chmod -R 777 /home/vagrant/samples
+cp -vR /vagrant/code/* /home/vagrant/samples/
