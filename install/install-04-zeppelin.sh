@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-export ZEPPELIN_VERSION=0.7.1
+export ZEPPELIN_VERSION=0.7.2
 export ZEPPELIN_HOME=/usr/zeppelin
 export ZEPPELIN_CONF_DIR=${ZEPPELIN_HOME}/conf
 export ZEPPELIN_NOTEBOOK_DIR=${ZEPPELIN_HOME}/notebook
