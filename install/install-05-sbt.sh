@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-export SBT_VERSION=0.13.15
+export SBT_VERSION=0.13.16
 
-wget -c https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz
+wget -c http://11a36.http.tor01.cdn.softlayer.net/sbt/${SBT_VERSION}/sbt-${SBT_VERSION}.tgz
 tar zxvf sbt-${SBT_VERSION}.tgz -C /usr
 
 echo "Including sbt on PATH"
